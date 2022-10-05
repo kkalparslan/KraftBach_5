@@ -1,0 +1,20 @@
+Abstraction
+Abstract class ve ınterface yapıları ile abstraction sağlayabiliyoruz.
+
+1- Abstract classdan instantiate yapamıyoruz.
+2- Abstract classlar içinde abstract methodlar oluşturabiliriz.
+3- Abstract methodlarda implement yapamayız, Method bodyleri yok.
+4- İlk concrete class da implement yapılır.
+5- Abstract class da non-abstract method olabilir.
+6- Abstract classlar da constructor olur.
+7- Abstract classlar larda blocks olabilir.
+8- Abstract classlar larda static method olabilir.
+9- Abstract classlar non- abstract classlara extends olabilir.
+10- Abstract classlar başka bir abstract classa extend olabilir.
+11- Abstract methodlar static, final ve private olamazlar..
+12- Abstract classlarda methodlar static olabilirler.
+13- Abstract methodlar protected ve dafault olabilir.
+14- Abstract classlarlar multiple inheritance olamaz.
+15- Abstract classlarlara extend olan bir başka abstract class implementasyon görevi üstlenmeyebilir.
+
+

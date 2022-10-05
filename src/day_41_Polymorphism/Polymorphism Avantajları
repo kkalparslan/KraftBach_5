@@ -1,0 +1,7 @@
+1- Programımızda yazılan gereksiz kod fazlalığından kurtarır.
+2- Farklı tanımlamalar sayesinde esneklik sağlar, çok biçimlilik.
+    Alparslan bey öğretmendir, öğrencidir, tester dır.
+3- Karmaşıklığı azaltır. Geri okunabilirliği artırır.
+4- Hata ayıklamayı kolaylaştırır.
+5- Güvenliği artırır. (Bağlantılı metotları indirgediği
+    için hatalı işlem yapmayı engellemeye yardımcı olur)

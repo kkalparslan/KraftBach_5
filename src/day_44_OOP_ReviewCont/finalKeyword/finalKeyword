@@ -1,0 +1,21 @@
+Final keyword is not access modifier.
+    - we can use it with variable-method-class
+
+    **final variable**
+    to create constant variables
+    if the instance variable is final;
+    we initialize in the same statements or
+    we initialize in constructors or
+    we initialize in init blocks.
+
+    ** final method**
+    prevent method overriding
+
+    ** final class**
+    prevent inheritance.
+
+    for immutable concept; we use final class.
+     for example string class..(güvenlik gerekçesi ile immutable yapıyor)
+
+    ** FİNAL KEYWORD WITH ARRAY AND ARRAYLİST **
+    Variables referans cant be changed.

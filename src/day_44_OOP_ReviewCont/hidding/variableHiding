@@ -1,0 +1,6 @@
+If the variable in the parent class is defined with same name signature in the child class;
+there is two referans situation, one of them from child class one of them from parent class.
+if we are referancing from child class, variable is used child class
+if we are referancing from parent class, variable is used parent class
+
+** the closed method is used**(for methods)
