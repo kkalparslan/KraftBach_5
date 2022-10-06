@@ -19,6 +19,7 @@ public class SetExample {
         set.add("ahmet"); // yinelenen verileri almıyor
         set.add("mehmet");
         set.add("kemal");
+        set.add("azra");
         System.out.println("set = " + set);
     }
 }

@@ -15,5 +15,6 @@ public class QueueExample {
         System.out.println("queue = " + queue);
         System.out.println("queue.offer(3) = " + queue.offer(3));
         System.out.println("queue = " + queue);
+
     }
 }

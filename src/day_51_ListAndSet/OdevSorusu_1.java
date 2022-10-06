@@ -22,7 +22,9 @@ public class OdevSorusu_1 {
 
 
         List<String> list1 = new ArrayList<>(Arrays.asList("ey edip adanada pide ye"));
+
     }
+
 
     public static List<String> removePalindromList(List<String> list) {
         for (int i = 0; i < list.size(); i++) {
