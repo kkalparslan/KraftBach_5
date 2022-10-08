@@ -1,8 +1,6 @@
 package day_51_ListAndSet;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class OdevSorusu_2 {
     public static void main(String[] args) {
@@ -10,7 +8,15 @@ public class OdevSorusu_2 {
         // List<String>
         // ey edip adanada pide ye --> ey edip pide ye çıktı
         List<String>list=new ArrayList<>(Arrays.asList("ey", "edip", "adanada", "kibik", "bir", "kek", "sos", "pide", "ye"));
-        System.out.println(clearAllPalindrom(list));
+       // System.out.println(clearAllPalindrom(list));
+        Random random = new Random();
+//        int rastgeleSayi=random.nextInt(list.size());
+//        list.forEach(p-> System.out.println(p));
+        Iterator<String> iter=list.iterator();
+        while (iter.hasNext()){
+            System.out.println(iter.next());
+        }
+        //System.out.println("list.get(rastgeleSayi)  " + list.get(rastgeleSayi));
 
     }
 

@@ -5,7 +5,7 @@ public class Ogrenci {
     private String surName;
     private double averageNote;
 
-    public Ogrenci(String s) {
+    public Ogrenci() {
     }
 
     public Ogrenci(String name, String surName, double averageNote) {

@@ -25,11 +25,13 @@ public class Loops {
 
         for (Integer num:set){
             System.out.println(num);
-        }*/
+        }
         Iterator<Integer>iter=set.iterator();
         while (iter.hasNext()){
             System.out.println(iter.next());
         }
+        */
+        set.forEach(p-> System.out.println(p));// lambda expression
 
 
     }
