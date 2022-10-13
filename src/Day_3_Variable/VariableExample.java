@@ -36,12 +36,12 @@ public class VariableExample {
         char b=65+45;
         System.out.println(b);
 
-        String a="bugün hava çok güzel";
+       String a="bugün hava çok güzel";
         //System.out.println(a);
         String b="güneş parlıyor";
         //System.out.println(a+"\t"+b);
         int c=5;
-        System.out.println(a+c);
+        System.out.println(a+c);*/
 
         byte a=1;
         short b=7;
@@ -51,10 +51,13 @@ public class VariableExample {
         double e=5.3;
         boolean g=false;
         char h='D';
-        //System.out.println(5+10+"Ahmet");
-        //System.out.println("Ahmet"+5+20);
+        System.out.println(5+10+"Ahmet");
+        System.out.println("Ahmet"+5+20);
         System.out.println(a+b+c+d);
-
+        System.out.println(g);
+        System.out.println(h);
+        System.out.println(f);
+/*
         short yil=2020;
         byte yas=20;
         String isim="Ahmet";
@@ -78,15 +81,15 @@ public class VariableExample {
 
         float a=10.9f, b=20.3f, c;
         c=b-a;
-        System.out.println(c);*/
-
+        System.out.println(c);
+*/
 
 //        int a=15, b=25, c;
 //        c=(a+b)/2;
 //        System.out.println("Ortalama:"+c);
 
 //        double a=10.9;
-//        System.out.println(a+ "bugün oldu bu iş");
+//        System.out.println(a+ " bugün oldu bu iş");
 
 
 

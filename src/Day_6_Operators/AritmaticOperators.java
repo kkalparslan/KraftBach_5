@@ -5,6 +5,12 @@ package Day_6_Operators;
 public class AritmaticOperators {
     public static void main(String[] args){
 
+        int x=5, y=6, z;
+        z=x+y;
+        System.out.println("z = " + z);
+        int sayi= 3+5/2*4%(12-9);
+        System.out.println("sayi = " + sayi);
+
 
         /*int sayi=3+5/2*4%(12-9);
         System.out.println(sayi);
@@ -26,12 +32,12 @@ public class AritmaticOperators {
 
 
         double fizik=92;
-        double kimya=55;
+        double kimya=65;
         double mat=89;
         double ort= (fizik+kimya+mat)/3;
         System.out.println(ort);
-        boolean gecme=ort>80;
-        System.out.println(gecme);
+        boolean gecmeNotu=ort>80;
+        System.out.println("gecmeNotu = " + gecmeNotu);
 
         System.out.println("-----------------------");
 

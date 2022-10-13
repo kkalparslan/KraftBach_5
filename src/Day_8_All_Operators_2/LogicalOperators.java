@@ -1,6 +1,6 @@
 package Day_8_All_Operators_2;
 
-public class LogicOperators {
+public class LogicalOperators {
     public static void main(String[] args){
         //boolean sonuc=(false) || (true);
         //System.out.println(sonuc);

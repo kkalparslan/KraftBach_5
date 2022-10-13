@@ -16,6 +16,21 @@ public class TypeCasting {
         System.out.println(str2+b+a);
         System.out.println("--------------");
         System.out.println(b+a+b+str2);
+
+
+        // 300 fahrenheit kaç celsius dur( c=(f-32)/1.8
+        // C=(f-32)/1.8
+        // C= (300-32)/1.8
+        // C= 268/1.8
+
+        double fahrenheit=300;
+        double celcius=(fahrenheit-32)/1.8;
+
+        System.out.println("celcius = " + celcius);
+
+
+
+
     }
 
 
