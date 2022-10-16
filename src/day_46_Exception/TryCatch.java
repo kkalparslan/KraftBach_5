@@ -2,7 +2,7 @@ package day_46_Exception;
 
 import java.util.Scanner;
 
-public class TryaCatch {
+public class TryCatch {
     public static void main(String[] args) {
 //        int arr []=new int[5];
 //        System.out.println("program başladı");
