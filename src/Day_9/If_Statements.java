@@ -19,45 +19,47 @@ public class If_Statements {
        int x = 10;
         int y = 105;
 
-        if (x == 10) {
-            y = 20;
+        if (x == 10) { // true olduğu için
+            y = 20; // y ye 20 sayısı atandı
         }
         System.out.println("y = " + y);*/
 
-        System.out.println("-----------------------------");
-        //task 2
-
-        /*int temp = 10;
+        //System.out.println("-----------------------------");
+        //Task 2:
+        /*int temp = 10; // sıcaklık 20 ve üzeri derece ise kelebekler uçar yazısını konsola
+        yazdırın. burada 20 dereceden küçük olduğu için if değil else bloğunu çalıştırır.
         if (temp >= 20) {
 
             System.out.println("kelebekler uçar");
         } else {
-            System.out.println("kelebekler bu sıcaklıkta uçamaz");
+            System.out.println("kelebekler bu sıcaklıkta uçamaz"); // 10 derece olduğu için burası çalıştı.
 
             System.out.println("................");*/
 
+        // Task 3:
+        // ayşenin harçlığı 5 liradan az ise babası ona 10 lira versin.
+
                 /*int harclık = 7;
-        if (harclık < 5) {
+        if (harclık < 5) { // harçlık 5 dereceden büyük olduğu için if değil yine else bloğuna girecek
+        ve mevcut harçlığı ile okula gideceğini yazdıracak
             harclık = harclık + 10;
 
         }else{
             System.out.println("ayşe bugün okula " + harclık + " lira ile gitmek durumunda kalacak");
+            // konsola burasını yazdırdı..
         }
         System.out.println("harclık = " + harclık);*/
 
-
-
-            /*double hesap=1000;
+// Task 4: hesaptaki paranın takım elbiseyi alıp alamayacağını ele alan bir if sorusu..
+            /*double hesap=2000;
             double takım=1999;
-            if(takım<hesap){
-
+            if(takım<hesap){ // hesaptaki para takımın fiyatından büyük olduğu için bu bloğa girecek
+             ve mesajı yazdıracak
                 System.out.println("takım satın alınabilir... ");
-
             }else{
                 System.out.println("takım satın alınamaz..yetersiz bakiye mevcut");
 
-
-        // task 5
+        // Task 5:
 
         Scanner scan = new Scanner(System.in);
         int a;
@@ -157,28 +159,9 @@ public class If_Statements {
         e= scan.nextDouble();
         double sonuc=
 
-
-            // cuma günü ilk örneği yap burada
-
         Scanner scan = new Scanner(System.in);
-        int a;
-        a = scan.nextInt();
-        if (a > 5) {
-            System.out.println("a " + "beşten büyüktür");
-            if (a > 25) {
-                System.out.println(a");
-                if () {
-
-                }
-            }
-        }
-
-        System.out.println("lütfen sayıları girin");
-
-        int num;
-
         System.out.print("  lütfen sayıyı girin ");
-        num = scan.nextInt();
+        int num = scan.nextInt();
 
        if (num > 5) {
             System.out.println("sayı 5 ten büyüktür");
@@ -187,23 +170,21 @@ public class If_Statements {
                 if (num > 50) {
                     System.out.println("sayı 50 den büyüktür");
                 } else {
-                    System.out.println("sayı malesef 50 den küçük olduğu için bu else bloğuna da uğramıştır.");
+                    System.out.println("sayı malesef 50 den küçük olduğu için bu else bloğuna da uğramıştır");
                 }
             } else {
                 System.out.println("sayı 5 ten büyük ama 25 ve 50 den küçüktür");
             }
         } else {
             System.out.println("sayı 5 ten küçük olduğu için işlem dışında kalmıştır");
-        }*/
+        }
 
-
-
+         */
 
         Scanner scan = new Scanner(System.in);
         System.out.println("pozitif bir sayı tahmin et ");
         int num = 40;
         int tah = scan.nextInt();
-
 
         if (tah<num) {
             if(tah>num/2){
@@ -213,7 +194,6 @@ public class If_Statements {
             }else{
                 System.out.println("tahminini 2 ile çarparsan doğru sonucu bulursun");
             }
-
         }else if(tah>num){
             if(tah<num+num/2){
                 System.out.println("tahmininiz çok yaklaştı ama biraz daha küçük bir sayı söyleyin");
@@ -222,30 +202,9 @@ public class If_Statements {
             }else{
                 System.out.println("tahminini 2 ye bölersen doğru sonucu bulursun");
             }
-
         }else{
             System.out.println("tahmininiz doğrudur,,,TEBRİKLER");
         }
-
-
-
-
-
-
-
-
-
-
-
-            //Scanner scan = new Scanner(System.in);
-
-
-//System.out.println("pozitif bir sayı girin");
-
-        /*int a1=60;
-        int b1=30;
-        int c1=90;*/
-
 
         }
     }

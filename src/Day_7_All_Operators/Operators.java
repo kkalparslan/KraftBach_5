@@ -1,13 +1,7 @@
 package Day_7_All_Operators;
-
 import java.util.Scanner;
-
 public class Operators {
     public static void main(String[] args){
-
-
-
-
         /*int a=4;
         System.out.println(a++ +" anın yeni değeri: "+a);
         //System.out.println();*/
@@ -41,15 +35,16 @@ public class Operators {
         sayi%=3;
         System.out.println(sayi);*/
 
+        Scanner scan=new Scanner(System.in);
+//        System.out.print("lütfen bir sayı giriniz: ");
+//        double sayi=scan.nextDouble();
+//        double sayi2=sayi;
+//        sayi*=2;
+//        sayi+=10;
+//        sayi/=2;
+//        sayi=sayi-sayi2;
+//        System.out.println(sayi);
 
-        //System.out.print("lütfen bir sayı giriniz: ");
-        //double sayi=scan.nextDouble();
-        //double sayi2=sayi;
-        //sayi*=2;
-        //sayi+=10;
-        //sayi/=2;
-        //sayi=sayi-sayi2;
-        //System.out.println(sayi);
 
         //boolean a=(5<6);
         //System.out.println(a);
@@ -131,29 +126,27 @@ ekrana true geçmedi ise false yazdırın.
         //System.out.println("a = " + a);
         //System.out.println("sonuc = " +sonuc);
 
-        Scanner scan=new Scanner(System.in);
+        //Scanner scan=new Scanner(System.in);
         /*System.out.print(" lütfen bir rakam giriniz = " );
         double a= scan.nextDouble();
         double sonuc= (((((a*5) / 2 )+ 1) % 4) - 1);
         System.out.println("sonuc = " + sonuc);*/
 
-        System.out.print("lütfen bir araba fiyatı giriniz = ");
-        double a= scan.nextDouble();
-        System.out.print("lütfen bir KDV tutarı giriniz = ");
-        double kdv= scan.nextDouble();
-        System.out.print("lütfen bir ÖTV oranı giriniz = ");
-        double otv1= scan.nextDouble();
-        kdv=a*kdv;
-        System.out.println("kdv = " + kdv);
-        otv1=a*otv1;
-        System.out.println("otv1 = " + otv1);
-
-        double otv2=(a+kdv)*(0.10)-otv1;
-        System.out.println("otv2 = " + otv2);
-        double toplam=(a+kdv+otv1+otv2);
-        System.out.println("toplam = " + toplam);
-
-
+//        System.out.print("lütfen bir araba fiyatı giriniz = ");
+//        double a= scan.nextDouble();
+//        System.out.print("lütfen bir KDV tutarı giriniz = ");
+//        double kdv= scan.nextDouble();
+//        System.out.print("lütfen bir ÖTV oranı giriniz = ");
+//        double otv1= scan.nextDouble();
+//        kdv=a*kdv;
+//        System.out.println("kdv = " + kdv);
+//        otv1=a*otv1;
+//        System.out.println("otv1 = " + otv1);
+//
+//        double otv2=(a+kdv)*(0.10)-otv1;
+//        System.out.println("otv2 = " + otv2);
+//        double toplam=(a+kdv+otv1+otv2);
+//        System.out.println("toplam = " + toplam);
 
 
 

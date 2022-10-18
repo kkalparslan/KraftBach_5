@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class ForLoops {
     public static void main(String[] args) {
+        if(false)
+            System.out.println("ders");
+        System.out.println("çalış");
+        System.out.println("unutma");
 
 
         //if(false)
