@@ -2,6 +2,7 @@ package Day_1_benimCalısmalarim;
 
 public class ArrayDeneme {
     public static void main(String[] args) {
+        System.out.println("yeni değişiklik");
         int [] array={11,2,66,3,66};
         System.out.println(maxNumberArray(array));
         System.out.println((maxIndex(array)));
