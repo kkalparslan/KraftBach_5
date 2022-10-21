@@ -43,6 +43,9 @@ public class TypeCasting {
         scan.nextLine();
         String secim = scan.nextLine();
 
+
+
+
         switch (katNo) {
             case 1:
                 switch (secim) {

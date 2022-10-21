@@ -21,40 +21,40 @@ public class Benim_Cözümler {
         // fark edermi
 
 
-//        System.out.println("birinci kelimeyi giriniz");   // 3 defa hatalı girilen sorunun cevabı
-//        String result="";
-//        Scanner scan = new Scanner(System.in);
-//        String str1 = scan.nextLine();
-//        for (int i=0; i<1; i++) {
-//            if (str1.length() > 4) {
-//                System.out.println("hatalı,,,tekrar giriniz");
-//            } else if(str1.length()>=1&&str1.length()<=3){
-//                result += str1 + "";
-//            }
-//            String str2 = scan.nextLine();
-//            if (str2.length() > 4) {
-//                System.out.println("hatalı,,,tekrar giriniz");
-//            } else {
-//                result += str2 + "";
-//            }
-//            String str3 = scan.nextLine();
-//            if (str3.length() > 4) {
-//            } else {
-//                result += str3 + "";
-//            }
-//            System.out.println("3. defa hatalı giriş yaptınız program sonlandırıldı");//
-//        }
-//            System.out.println("ikinci kelimeyi giriniz");
-//            String str4 = scan.nextLine();
-//            if (str4.length() > 4) {
-//                System.out.println("hatalı,,,tekrar giriniz");
-//                String str5 = scan.nextLine();
-//                if (str5.length() > 4) {
-//                    System.out.println("hatalı,,,tekrar giriniz");
-//                    String str6 = scan.nextLine();
-//                }
-////            }
-//            System.out.println(str1.concat(" ").concat(str4));
+        System.out.println("birinci kelimeyi giriniz");   // 3 defa hatalı girilen sorunun cevabı
+        String result="";
+        Scanner scan = new Scanner(System.in);
+        String str1 = scan.nextLine();
+        for (int i=0; i<1; i++) {
+            if (str1.length() > 4) {
+                System.out.println("hatalı,,,tekrar giriniz");
+            } else if(str1.length()>=1&&str1.length()<=3){
+                result += str1 + "";
+            }
+            String str2 = scan.nextLine();
+            if (str2.length() > 4) {
+                System.out.println("hatalı,,,tekrar giriniz");
+            } else {
+                result += str2 + "";
+            }
+            String str3 = scan.nextLine();
+            if (str3.length() > 4) {
+            } else {
+                result += str3 + "";
+            }
+            System.out.println("3. defa hatalı giriş yaptınız program sonlandırıldı");//
+        }
+            System.out.println("ikinci kelimeyi giriniz");
+            String str4 = scan.nextLine();
+            if (str4.length() > 4) {
+                System.out.println("hatalı,,,tekrar giriniz");
+                String str5 = scan.nextLine();
+                if (str5.length() > 4) {
+                    System.out.println("hatalı,,,tekrar giriniz");
+                    String str6 = scan.nextLine();
+                }
+            }
+            System.out.println(str1.concat(" ").concat(str4));
         }
 //String str="merhaba java insanları bugün nasılsınız";
 
