@@ -1,9 +1,9 @@
-package Day_12_Nested_For;
+package Day_12_NestedAndWhileLoops;
 
 public class NestedLoops {
     public static void main(String[] args) {
-
-      /* for(int i=0; i<6; i++){
+/*
+       for(int i=0; i<6; i++){
             for(int j=0; j<6; j++){
                 System.out.print("1");
             }
@@ -21,40 +21,44 @@ public class NestedLoops {
                 System.out.print("*");
             }
             System.out.println();
-        }*/
+        }
 
 
 
-        /*for (int i = 0; i < 6; i++) {
-            for (int j = 0; j <= i; j++) {
-                System.out.print("*");
-            }
-            System.out.println();*/
-
-
-       /* for (int i = 1; i < 7; i++) {
+        for (int i = 1; i < 7; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(j);
             }
             System.out.println();
         }
-// örnek 6 yı yapamadım
-        for (int i = 1; i<=15; i++) {
-            for (int j = 0; j<i; j++) {
 
-                System.out.print(i+(j+=i));
+// örnek 6 yı yapamadım
+        int k=0;
+        for (int i = 1; i<=5; i++) {
+            for (int j = 1; j<=i; j++) {
+                k++;
+                System.out.print(k);
             }
             System.out.println();
+            }
+            */
+
 
         // ödev yıldızı da yapamadım...
-        for (int i = 0; i <=6; i++) {
-            for (int j = 0; j < i; j++) {
-                System.out.print(" * ");
+        for (int k = 0; k < 7; k++) {
+            for (int i = 6 - k; i > 0; i--) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < k; j++) {
+                System.out.print("* ");
             }
             System.out.println();
-        }*/
+        }
     }
+
+
 }
+
 
 
 

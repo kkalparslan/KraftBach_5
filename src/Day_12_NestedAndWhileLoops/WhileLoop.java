@@ -1,14 +1,11 @@
-package Day_12_Nested_For;
+package Day_12_NestedAndWhileLoops;
+
+import java.util.Scanner;
 
 public class WhileLoop {
     public static void main(String[] args) {
-
-
-
-
-
-
-       /* int i=0;
+/*
+       int i=0;
         while(i<20){
             System.out.println(i+" merhaba dünya");
             i+=2;
@@ -22,8 +19,6 @@ public class WhileLoop {
             System.out.print(i+" " );
             i++;
         }
-
-
 
 
         //örnek 3
@@ -65,8 +60,8 @@ public class WhileLoop {
             i+=2;
         }
 
-
-        //örnek 7 10 ile 1000 arasında olan 10 a tam bölünebilen tüm sayıları yazdırın
+        //örnek 7 10 ile 1000 arasında olan 10 a tam bölünebilen tüm
+        sayıları yazdırın
 
         int i=10;
         while(i<1000){
@@ -80,13 +75,14 @@ public class WhileLoop {
             i++;
         }
 
+        ÖRNEK 8: 8 faktöriyel??
         int i = 1, sonuc = 1;
 
         while (i <= 8) {
             sonuc *= i;
             i++;
+            System.out.println("sonuç= "+sonuc);
             }
-        System.out.println("sonuç= "+sonuc);
 
 
         //örnek9 0 ile 20 arasındaki 3 ün katı olan tüm sayıların küplerini ekrana yazdırın
@@ -108,19 +104,21 @@ public class WhileLoop {
         }
 
         // kullanıcıdan kelime alın sorana kadar yazdırın taki x ebasana kadar
+        Scanner scan = new Scanner(System.in);
 
-        Scanner scan=new Scanner (System.in);
-        String exit="x";
-        while(true){
+        String exit = "x";
+        while (true) {
             System.out.print("lütfen bir kelime giriniz: ");
-            String kelime= scan.next();
-            if(kelime.equals("x")){
+            String kelime = scan.next();
+            if (kelime.equals(exit)) { // exit yerine sadece equals "x" desek
+                // te olurdu ancak kodun bu hali daha şık
                 break;
             }
             System.out.print("kaç defa yazdırmak istersiniz ");
-            int repeat= scan.nextInt();
-            for(int i=0; i<repeat; i++){
+            int repeat = scan.nextInt();
+            for (int i = 0; i < repeat; i++) {
                 System.out.println(kelime);
+
 
 // örnek xxxxxx
         for(int i=1; i<=5; i++){
@@ -140,12 +138,18 @@ public class WhileLoop {
             }
             System.out.println();
         }
+
+        */
         for (int i = 1; i <= 6; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(j);
             }
             System.out.println();
-        }*/
+        }
 
-    }
-}
+            }
+        }
+
+
+
+
