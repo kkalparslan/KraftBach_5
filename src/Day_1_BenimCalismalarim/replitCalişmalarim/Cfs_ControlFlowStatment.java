@@ -1,4 +1,4 @@
-package Day_1_benimCalısmalarim.replitCalişmalarim;
+package Day_1_BenimCalismalarim.replitCalişmalarim;
 
 import java.util.Scanner;
 

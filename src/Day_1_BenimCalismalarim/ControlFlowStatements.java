@@ -1,4 +1,4 @@
-package Day_1_benimCalısmalarim;
+package Day_1_BenimCalismalarim;
 
 public class ControlFlowStatements {
 //    Write a program a,b,c olmak uzere 3 int degişken declare

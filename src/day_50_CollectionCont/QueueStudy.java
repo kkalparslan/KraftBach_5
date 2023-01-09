@@ -21,12 +21,14 @@ public class QueueStudy {
         System.out.println("numQue = " + numQue); // FIFO-->[2, 4, 7, 8, 9]
 
         // peek()
-        System.out.println("numQue.peek() = " + numQue.peek());
+        System.out.println("numQue.peek() = " + numQue.peek()); // 2
 
         // element()
         System.out.println("numQue.element() = " + numQue.element());
         // peek ten farkı sırada element yoksa exception atar..
         System.out.println("numQue = " + numQue); // [2, 4, 7, 8, 9]
+
+
 
         while (!numQue.isEmpty()){
             System.out.print("numQue.poll() = " + numQue.poll()+"--->");

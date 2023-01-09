@@ -1,4 +1,4 @@
-package Day_1_benimCalısmalarim;
+package Day_1_BenimCalismalarim;
 
 public class Linkedin_Study {
     public static void main(String[] args) {
@@ -12,5 +12,6 @@ public class Linkedin_Study {
         str.substring(3,4);
         System.out.println(str);
     }
+
 
 }

@@ -1,6 +1,5 @@
-package Day_1_benimCalısmalarim.replitCalişmalarim;
+package Day_1_BenimCalismalarim.replitCalişmalarim;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Replit {

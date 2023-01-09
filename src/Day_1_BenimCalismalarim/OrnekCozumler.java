@@ -1,6 +1,4 @@
-package Day_1_benimCalısmalarim;
-
-import java.util.Arrays;
+package Day_1_BenimCalismalarim;
 
 public class OrnekCozumler {
     public static void main(String[] args) {

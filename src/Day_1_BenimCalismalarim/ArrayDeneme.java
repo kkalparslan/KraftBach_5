@@ -1,4 +1,4 @@
-package Day_1_benimCalısmalarim;
+package Day_1_BenimCalismalarim;
 
 public class ArrayDeneme {
     public static void main(String[] args) {

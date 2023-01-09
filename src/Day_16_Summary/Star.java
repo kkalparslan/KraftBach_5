@@ -1,6 +1,6 @@
 package Day_16_Summary;
 
-public class Summary_Example {
+public class Star {
     public static void main(String[] args) {
         //Scanner scan=new Scanner(System.in);
         //System.out.println("lütfen bir sayı giriniz");
@@ -11,11 +11,11 @@ public class Summary_Example {
 
         for (int i = 0; i < 8; i++) {
 
-            for (int b = 0; b < 8 - (i + 1); b++) {
-                System.out.print("-");
+            for (int b = 0; b < 8 - i ; b++) {
+                System.out.print(" ");
             }
-            for (int j = 0; j < 1 + (i * 2); j++) {
-                System.out.print("*");
+            for (int j = 0; j < 1 + i; j++) {
+                System.out.print("* ");
 
             }
             System.out.println();

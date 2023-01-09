@@ -1,14 +1,14 @@
 package Day_24;
 
+import java.util.Arrays;
+
 public class Benim_Arrays_Calismalarim {
     public static void main(String[] args) {
         //System.out.println(Arrays.toString(merhaba(str)));
         //System.out.println(Arrays.toString(cilek(str)));
         //System.out.println(Arrays.toString(swaping(str)));
-        //System.out.println(Arrays.toString(ikinci(str)));
-
-
-
+        String str= "alp arslan";
+        System.out.println(Arrays.toString(ikinci(str)));
     }
     public static String [] merhaba(String str){
         return str.split(" ");

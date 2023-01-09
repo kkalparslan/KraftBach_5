@@ -19,7 +19,7 @@ public class SetExample {
         set.add("mehmet");
         set.add("kemal");
         set.add("azra");
-      //  System.out.println("set = " + set);
+        //  System.out.println("set = " + set);
 
         // örnek soru: aşağıdaki cümlede hangi harfler vardır?..
 //        String str= "bugün eve çok geç geldim, ama kendimi çok mutlu hissediyorum";

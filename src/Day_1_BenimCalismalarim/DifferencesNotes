@@ -1,0 +1,33 @@
+Array, özel bir sınıftır ve aynı türden çok sayıda veriyi depolamak için kullanılır.
+Yeni bir Array oluşturma bir sınıftan nesne oluşturma gibidir.
+Declerasyon yapıldığında ortada gerçek bir array henüz yoktur. Derleyiciye
+sadece belirtilen tipte bir array oluşturulacağı söylenir.
+Arrayleri ilk oluştururken boyutu belirlenir ve boyutu tanımladıktan sonra değiştirilemez.
+Tanımlandıktan sonra indeks numaralarına göre depolama yapılabilir.
+Array süslü parantez kullanılarak da tanımlanabilir. Süslü parantez kullanılacak ise aynı satırda olmalıdır.
+Javadaprimitivedatatyplerden, objectlerden ve kullanıcının oluşturduğu classlarınnesnelerinden array oluşturulabilir.
+Arraylerde diğer datatypelar gibi methodların parametresi olabilir. Ayrıca array tipinde returntyp ı olan methodlarda olabilir.
+Bu şekilde olduğunda method bir array döndürecektir.
+ArrayListde bir classdır. Arrayslere benzerler. Ancak objectleri depolayabilirler. Esnek bir yapıları vardır.
+Objectler eklendikçe genişler, çıkartıldıkça daralır.
+ArrayList oluşturulurken kaç elamandan oluştuğunu belirtmemize gerek yoktur.
+ArrayList ilk oluşturulduğunda otamatik olarak kapasitesi 10 olarak belirlenir.
+Eğer bir başlangıç kapasite belirlemek istersek argüman parantezine değer girilebilir.
+
+Array is a special class and we can use it to store lots of data of the same type.
+The size of Array is determined when it is first created and cannot be changed after defining the size.
+After defining the arrays, we can store them according to their index numbers.
+When the declaration is made, there is no real array yet. The compiler is told to creat eonly an array of the specified type.
+No memory has been created for the array yet.
+Array can be defined using curly braces. If curly braces are to be used, they must be on the same line.
+Arrays are structures that can hold more than one value of the same type in a single variable.
+Arrays allow us to keep the same type of objects together and to control objects over a single variable.
+In Java, arrays can be created from primitive datatypes, objects and class objects created by the user.
+Arrays can have parameters of methods like other data types. It can also be in methods that have a return type of array type.
+In this way, the method will return an array.
+ArrayList is also a class. They are similar to Arrays. However, they can store objects. They have a flexible structure.
+It expands as objects are added.
+When creating an ArrayList, we do not need to specify how many elements it consists of.
+When the ArrayList is first created, its capacity is automatically set to 10.
+If we want to specify an initial capacity, a value can be entered in the argument bracket.
+

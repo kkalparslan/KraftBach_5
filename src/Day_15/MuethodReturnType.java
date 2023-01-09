@@ -15,6 +15,7 @@ public class MuethodReturnType {
         //System.out.println(gecmeNotu(105,95,100));
         //System.out.println(gecmeNotu5(95,55,99)); benim çözüm
 
+
     }
 
     public static boolean sonRakamKontrol(int a, int b) {

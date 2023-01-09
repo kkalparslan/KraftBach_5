@@ -68,6 +68,7 @@ public class MapExample {
         fenA.put(8957, "Ceren");
         fenA.put(1558, "Azra");
 
+
         Map<Integer, String>fenB=new LinkedHashMap<>();
         fenB.put(683, "Hacı");
         fenB.put(107, "Kemal");

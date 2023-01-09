@@ -134,16 +134,20 @@ public class If_Statements {
         System.out.println("bu bir çift sayıdır");
         }else {
             System.out.println("bu bir tek sayıdır");
-
-
-            if (a1+b1+c1==180){
-            if (a1 == 90 || b1 == 90 || c1 == 90) {
+*/
+        int a = 80;
+        int b = 50;
+        int c = 50;
+        if (a + b + c == 180) {
+            if (a == 90 || b == 90 || c == 90) {
                 System.out.println("bu bir dik üçgendir");
             } else {
                 System.out.println("bu bir üçgendir");
             }
         } else {
-            System.out.println("bu bir üçgen olamaz");*/
+            System.out.println("bu bir üçgen olamaz");
+        }
+    }
 
 
         /*System.out.println("lütfen not aralıklarını giriniz");
@@ -179,7 +183,7 @@ public class If_Statements {
             System.out.println("sayı 5 ten küçük olduğu için işlem dışında kalmıştır");
         }
 
-         */
+
 
         Scanner scan = new Scanner(System.in);
         System.out.println("pozitif bir sayı tahmin et ");
@@ -207,7 +211,11 @@ public class If_Statements {
         }
 
         }
-    }
+
+         */
+        }
+
+
 
 
 
