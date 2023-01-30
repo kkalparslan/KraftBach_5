@@ -6,9 +6,6 @@ public class ArrayDeneme {
         int [] array={11,2,66,3,66};
         System.out.println(maxNumberArray(array));
         System.out.println((maxIndex(array)));
-
-
-
     }
     public static int maxNumberArray(int [] arr){
         int max=arr[0];

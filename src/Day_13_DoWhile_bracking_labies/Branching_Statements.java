@@ -8,7 +8,7 @@ public class Branching_Statements {
 
         Scanner scan = new Scanner(System.in);
 
-    /*for(int i=1; i<6; i++){
+    for(int i=1; i<6; i++){
             System.out.println(i+" ilk döngü");
             for(int j=1; j<6; j++){
                 if(j==3){
@@ -20,7 +20,7 @@ public class Branching_Statements {
         }
 
 
-
+/*
 
        while(true) {
            System.out.println(" sayıların toplamı 50 ise programdan çıkış işlemi olacaktır ");

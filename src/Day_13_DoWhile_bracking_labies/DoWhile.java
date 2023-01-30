@@ -6,14 +6,15 @@ import java.util.Scanner;
 public class DoWhile {
     public static void main(String[] args) {
 
-       /* int i=1;
-        do{
-            System.out.println(i+"nci işlem");
+        int i = 1;
+        do {
+            System.out.println(i + "nci işlem");
             i++;
-
-        }while(i<6);
+        } while (i < 6);
         System.out.println(i);
-        */
+    }
+}
+
 // örnek toplam 0 ise programdan çıksın
 
 
@@ -62,7 +63,7 @@ public class DoWhile {
                 k = false;
             }
         } while (k);
-*/
+
         Scanner scan = new Scanner(System.in);
         Random random = new Random();
         int i = random.nextInt(50);
@@ -86,5 +87,5 @@ public class DoWhile {
 
         System.out.println("tuttuğum sayı"+i);
     }
-}
+}*/
 
