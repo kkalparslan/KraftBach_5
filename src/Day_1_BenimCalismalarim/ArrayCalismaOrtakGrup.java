@@ -1,8 +1,5 @@
 package Day_1_BenimCalismalarim;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ArrayCalismaOrtakGrup {
     public static void main(String[] args) {
 
@@ -33,7 +30,7 @@ public class ArrayCalismaOrtakGrup {
          * String str="125klm89dyhr41"; bu stringi harf ve rakamları ayırarak bir array e yazınız.
          */
 
-        String str = "125klm89dyhr41";
+       /* StringWorkings str = "125klm89dyhr41";
         char[] charArray = str.toCharArray();
         List<Character> letters = new ArrayList<>();
         List<Character> digits = new ArrayList<>();
@@ -50,13 +47,13 @@ public class ArrayCalismaOrtakGrup {
 
 
     }
-    public static void letterOrDigit(String [] arr){
+    public static void letterOrDigit(StringWorkings[] arr){
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr [i].length(); j++) {
             }
         }
+    }*/
+
+
     }
-
-
-
 }

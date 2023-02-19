@@ -1,9 +1,7 @@
 package Day_1_BenimCalismalarim;
 
-import java.util.Arrays;
-
 public class Deneme111 {
-    public static void main(String[] args) {
+    public static void main(java.lang.String[] args) {
 
 //        int a=50;
 //        int b=90;

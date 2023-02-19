@@ -1,8 +1,5 @@
 package Day_1_BenimCalismalarim;
 
-import java.util.Arrays;
-import java.util.Comparator;
-
 public class IntervewWorkings {
 
     public static void main(String[] args) {

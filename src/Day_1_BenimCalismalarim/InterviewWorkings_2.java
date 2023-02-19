@@ -1,11 +1,8 @@
 package Day_1_BenimCalismalarim;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class InterviewWorkings_2 {
 
-    public static void main(String [] args){
+    public static void main(String[] args){
 
         /**
          * Verilen bir Listteki elemanlari tekrarsiz olarak yaziniz.List<Integer> a = new ArrayList<>();
