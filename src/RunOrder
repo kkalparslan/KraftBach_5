@@ -1,0 +1,14 @@
+Intellij'de siniflari istedigimiz sirayla calistirabilmek için öncelikle bu classlardan herhangi birinin üzerinden
+ sağ click yapıp Modify Run Configuration'a, sonra Modify Options'a, sonra aşağılarda bulunan Before Launch'un altında
+  bulunan Add before launch task sekmesine basıyoruz. Yukarıda build çıkınca önce apply sonra okey'e basıp çıkıyoruz.
+  Ve bu işlemi yürütmek istediğimiz son sınıfa gelinceye kadar tekrar ediyoruz. Son sınıfta da aynı işlemi yapıp
+  add before launch task'a tıkladıktan sonra Add New Task sekmesinin altında bulunan  Run Anathor Configuration sekmesine
+  basıyoruz ve önceden hazırladığımız classlarımızı görüyoruz. Yürütmek istediğimiz sıraya göre + tuşuna basarak ayarlamayı
+   tamamlıyoruz.
+
+In order to run the classes in the order we want in Intellij, we first right-click on any of these classes and click
+Modify Run Configuration, then Modify Options, then the Add before launch task tab under Before Launch. When the build
+comes out above, we press apply and then okey and exit. And we repeat this process until we get to the last class we
+want to execute. After doing the same thing in the last class and clicking the add before launch task, we click on the
+Run Anathor Configuration tab under the Add New Task tab and we see our previously prepared classes. We complete the
+adjustment by pressing the + key according to the order we want to execute.
