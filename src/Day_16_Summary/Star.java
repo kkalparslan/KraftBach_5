@@ -8,25 +8,17 @@ public class Star {
         //System.out.println("basamakSayisi = " + basamakSayisi(sayi));
         // benim yıldız pramit çalışmam
 
-
         for (int i = 0; i < 8; i++) {
-
             for (int b = 0; b < 8 - i ; b++) {
                 System.out.print(" ");
             }
             for (int j = 0; j < 1 + i; j++) {
                 System.out.print("* ");
-
             }
             System.out.println();
-
         }
-
     }
-
 }
-
-
 
 //System.out.println("mathPow = " + mathPow(5,3));
 //System.out.println("ebob = " + ebob(7,8));
@@ -74,7 +66,6 @@ public class Star {
             System.out.print(" " + z);
             x = y;
             y = z;
-
         }
     }
 
