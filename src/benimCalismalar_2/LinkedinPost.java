@@ -2,6 +2,8 @@ package benimCalismalar_2;
 
 public class LinkedinPost {
 
+    static int age;
+
     public static void main(String[] args){
         int a = 1234512345; //alabileceği value değerin üzerinde bir value atanırsa compile etmez.
         System.out.println(a);
@@ -9,6 +11,7 @@ public class LinkedinPost {
         int x = 5;
         x = 10;
         System.out.println(x); //x değişkeni son tanımlandığı yerdeki değeri döndürür.
-    }
 
+        System.out.println("Your age is: " + age);
+    }
 }
