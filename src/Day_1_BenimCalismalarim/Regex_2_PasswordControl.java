@@ -19,12 +19,10 @@ public class Regex_2_PasswordControl {
         String str="Ahmet";
         str=str.replaceAll("[^a-z]","");
         System.out.println(str);
-
     }
     public static void passwordConrol(String password){
         String regex="^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)[A-Za-z\\d]{8,16}$";
         //String regex2 = "^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)[A-Za-z\\d\\p{Punct}]{8,16}$";
-
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(password);
@@ -34,7 +32,6 @@ public class Regex_2_PasswordControl {
             control=true;
             System.out.println("Password is not valid..");
         }
-
     }
     public static String generateRandomString2() {
         StringBuilder sb = new StringBuilder();

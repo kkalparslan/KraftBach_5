@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class TypeCasting {
     public static void main(String[] args) {
-
-
 //        int a=10;
 //        int b=20;
 //        String str = "Hİ";
@@ -42,8 +40,6 @@ public class TypeCasting {
         int katNo = scan.nextInt();
         scan.nextLine();
         String secim = scan.nextLine();
-
-
 
 
         switch (katNo) {
@@ -89,7 +85,6 @@ public class TypeCasting {
                         break;
                     default:
                         System.out.println("bu katta böyle bir odamız bulunmamaktadır");
-
                 }
                 break;
             default:

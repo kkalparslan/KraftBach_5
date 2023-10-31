@@ -29,5 +29,13 @@ public class LinkedinPost {
 
         int[] numbers = {3, 6, 9, 12};
         System.out.println(numbers[2]);
+
+        int ab = 100;
+        int cd = 150;
+        System.out.println(Math.max(ab,cd));
+
+        for(int i = 0; i<30; i = i+3){
+            System.out.println(i);
+        }
     }
 }

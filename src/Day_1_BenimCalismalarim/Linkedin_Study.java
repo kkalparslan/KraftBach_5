@@ -12,6 +12,4 @@ public class Linkedin_Study {
         str.substring(3,4);
         System.out.println(str);
     }
-
-
 }

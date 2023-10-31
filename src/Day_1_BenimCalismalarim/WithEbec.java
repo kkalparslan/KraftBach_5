@@ -27,7 +27,5 @@ public class WithEbec {
         f=f+e;
         System.out.println("e = " + e);
         System.out.println("f = " + f);
-
-
     }
 }

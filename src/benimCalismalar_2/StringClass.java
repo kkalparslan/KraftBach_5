@@ -11,10 +11,7 @@ public class StringClass {
 
         String str = "alparslan";
         System.out.println("reverseStr(str) = " + reverseStr(str));
-
-
     }
-
     /**
      * stringi tersten yazdırma
      */
@@ -23,6 +20,5 @@ public class StringClass {
         for (int i = str.length()-1; i >= 0; i--) {
             reverse+=str.charAt(i);
         }return reverse;
-
     }
 }

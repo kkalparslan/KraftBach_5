@@ -1,7 +1,6 @@
 package Day_1_BenimCalismalarim;
 
 public class Tau {
-
     public static void main(String[] args){
 
         String adjective="beatiful";

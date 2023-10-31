@@ -11,8 +11,6 @@ public class StringWorking {
         String str="Yayladan";
         System.out.println("(str) = " + countLetter(str));
         System.out.println(countLetter2(str));
-
-
     }
     public static List<String> countLetter(String str){
         str=str.toLowerCase();
@@ -40,13 +38,10 @@ public class StringWorking {
             list.add(control+count);
             str=str.replace(control,"");
         }
-
         return list;
     }
     /**
      * str tersten yazdır
      * str ın içindeki  unique harfleri yazdır. list e at
      */
-
-
 }
