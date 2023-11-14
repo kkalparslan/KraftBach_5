@@ -58,8 +58,6 @@ public class Tasks {
         String replace1=replace.replace(" ","");
         return replace1.replace(":","");
     }
-
-
 }
 
 

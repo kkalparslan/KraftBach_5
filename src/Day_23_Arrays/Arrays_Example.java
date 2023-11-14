@@ -1,5 +1,6 @@
 package Day_23_Arrays;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Arrays_Example {
@@ -99,14 +100,13 @@ public class Arrays_Example {
         array[2]=30;
         array[3]=40;
         array[4]=50;
-//        for (int i: array){
+
+        //        for (int i: array){
 //            System.out.println(i);
  //       }
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
-
         }
-
     }
 }
 

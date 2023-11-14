@@ -56,10 +56,5 @@ public class StringMethods {
 //        String replace = str.replace("/", "");
 //        String replace1 = replace.replace(" ", "");
 //        return replace1.replace(":", "");
-
-
-
-
     }
-
 }

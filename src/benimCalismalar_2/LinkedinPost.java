@@ -25,6 +25,7 @@ public class LinkedinPost {
         str.substring(2,3);
         System.out.println(str);
 
+
         System.out.println("hello my friends".split(" ")[2]);
 
         int[] numbers = {3, 6, 9, 12};
