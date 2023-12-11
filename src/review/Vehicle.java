@@ -19,5 +19,4 @@ public class Vehicle {
     public void forRentOption(int daycount){
         System.out.print("\r***"+color+ " renkli "+type+ " için "+daycount+ " günlük kiralama bedeli "+price*daycount+ " TL dir ***");
     }
-
 }
