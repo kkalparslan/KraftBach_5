@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class ForLoopExample {
     public static void main(String[] args) {
 
-        //for(int x=0; x<5; x++){
-        //  System.out.println(x);
-        //}
+        for(int x=0; x<5; x++){
+          System.out.println(x);
+        }
 
         //for(char i= 'A'; i<='Z'; i++){
         //System.out.print(i+ " ");
@@ -17,6 +17,7 @@ public class ForLoopExample {
           System.out.println("9 x "+i+ " = "+(i*9));
         }
 */
+        /**
         Scanner scan = new Scanner(System.in);
         String sifre = "alp";
         System.out.println("*** şifreyi bulmak için 5 hakkın var ***");
@@ -30,7 +31,7 @@ public class ForLoopExample {
             }else{
                 System.out.println("kelimeyi bulamadınız");
             }
-        }
+        }*/
 
 
 
