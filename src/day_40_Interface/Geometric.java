@@ -34,6 +34,5 @@ class run{
         System.out.println("Area of square: "+square1.getArea(Geometric.exponential));
         double primeter = square1.getPrimeter(2, 2, 2, 2);
         System.out.println("Primeter of Square: "+ primeter);
-
     }
 }

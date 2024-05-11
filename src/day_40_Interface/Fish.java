@@ -11,7 +11,6 @@ public class Fish implements Animal, Food{  // multi inheritance
 
     @Override
     public void meal() {
-
     }
 }
     class Chicken implements Food {  // chicken classı hiyerarşik olarak
@@ -20,12 +19,10 @@ public class Fish implements Animal, Food{  // multi inheritance
     // implementasyonlarını yapmak zorunda kaldı
     @Override
     public void meal() {
-
     }
 
     @Override
     public void hunt() {
-
     }
 }
 

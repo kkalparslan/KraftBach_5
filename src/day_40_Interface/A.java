@@ -9,10 +9,7 @@ public interface A {
     void M4();
 
     default void M5(){
-
     }
     static void M6(){
-
     }
-
 }

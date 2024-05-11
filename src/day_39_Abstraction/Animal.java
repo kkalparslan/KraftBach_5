@@ -13,7 +13,5 @@ class animalTest{
     public static void main(String[] args) {
  //       Animal animal=new Animal() { Abstract
         //classdan instantiate yapılamaz (nesne üretilemez)
-
-
     }
 }
