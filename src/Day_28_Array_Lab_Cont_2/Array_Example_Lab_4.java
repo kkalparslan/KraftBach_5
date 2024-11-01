@@ -23,7 +23,6 @@ public class Array_Example_Lab_4 {
             }
         }return result;
 
-
     }
     public static int [] kucuktenBuyugeSirala (int [] arr){
         int depo=0;
@@ -36,9 +35,5 @@ public class Array_Example_Lab_4 {
                 }
             }
         }return arr;
-
     }
-
-
-
 }
