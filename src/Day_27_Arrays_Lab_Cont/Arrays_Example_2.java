@@ -64,7 +64,6 @@ public class Arrays_Example_2 {
 
         return yalnizSayilar.split(" ");
 
-
     }
     public static int enCokSayiBul(int [] arr){
         int enCok= -1;
@@ -81,7 +80,6 @@ public class Arrays_Example_2 {
                 adet=count;
             }
         }return enCok;
-
 
     }
     public static boolean dublicateControl(int[] arr) {
@@ -147,9 +145,6 @@ public class Arrays_Example_2 {
     }
     //       [5 ,10, 6, 9 ,5]            5,8
     //       [5, 10, 5, 1, 20]
-
-
-
 }
 
 
