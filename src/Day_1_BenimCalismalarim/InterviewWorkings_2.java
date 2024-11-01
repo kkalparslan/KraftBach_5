@@ -109,11 +109,5 @@ public class InterviewWorkings_2 {
          *         System.out.println("first: "+first);
          *         System.out.println("second: "+second);
          */
-
-
-
-
-
-
     }
 }
