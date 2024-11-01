@@ -23,10 +23,6 @@ public class InterviewSorulari {
         }
         map.forEach((k,v)-> System.out.println(v+" "+k));
 
-
-
-
-
 /*
 String str="samsung,'OEM Samsung Washing Machine Pulsator Washplate Cap Shipped With WA48J7700AW, WA48J7700AW/A2, WA48J7700AW/AA', 20916," +
                 "samsung,'OEM Samsung Chrome Washing Machine Washplate Pulsator Cap Shipped With WA52M7750AV, WA52M7750AV/A4, WA52M7750AW, WA52M7750AW/A4', 91995," +
@@ -51,12 +47,9 @@ String str="samsung,'OEM Samsung Washing Machine Pulsator Washplate Cap Shipped 
         for (int i = 1; i < strArray.length ; i++) {
             String[]  array=strArray[i].split("',");
             strMap.put(Integer.parseInt(array[1].replace(",","").replace(" ","")),array[0]);
-
         }
 
         strMap.forEach((k,v)-> System.out.println("samsung,'"+v+"' "+k*1.25));
-
-
 
         int x=10;
         int y=20;
@@ -64,10 +57,6 @@ String str="samsung,'OEM Samsung Washing Machine Pulsator Washplate Cap Shipped 
         x=y;
        // y=z;
         System.out.println(x+" "+y);
-
-
-
-
 */
 
 

@@ -140,11 +140,7 @@ public class IntervewWorkings {
             sum = sum+i;
         }
         System.out.print(sum);
-
-
     }
-
-
 }
 
 
