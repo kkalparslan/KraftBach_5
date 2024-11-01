@@ -127,8 +127,5 @@ public class Arrays_ {
         String[] strings1 = Arrays.copyOfRange(arr, 3, 5);
         String[][] forReturn = {strings, strings1};
         return forReturn;
-
-
     }
-
 }

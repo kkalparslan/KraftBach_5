@@ -2,7 +2,7 @@ package Day_1_BenimCalismalarim;
 
 import java.util.Scanner;
 
-public class ScannerCalisma {
+ public class ScannerCalisma {
     //dışardan kimya dersi için alin'nin quiz,yarıfinal ve final notlarını alınız
     //Ortalamayı: quiz %20, yarı final notu %30, final notu ise %50
     // etkilediğine göre yıl sonu kimya notu nedir?

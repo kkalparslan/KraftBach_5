@@ -9,7 +9,6 @@ public class Tau {
         System.out.println("On a "+adjective+" "+ season+" day, I drink a minimum of "+whole+" cups of coffee" );
         int a=10;
         if(a==5){
-
         }
     }
 }
