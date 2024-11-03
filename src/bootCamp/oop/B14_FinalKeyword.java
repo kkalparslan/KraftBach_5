@@ -27,6 +27,4 @@ public class B14_FinalKeyword {
     // can not be inherited
     // for immutable consept: for example string class..
     // javada neden final keyword var gibi bir soru gelebilir? being final class is needed
-
-
 }

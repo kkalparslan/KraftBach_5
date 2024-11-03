@@ -14,7 +14,6 @@ public class B20_FileAndWrite {
                 bufferedWriter.write("azra ve babası");
                 bufferedWriter.close();
 
-
                 FileReader reader=new FileReader("C:\\Users\\Admin\\Desktop\\Target.txt");
                 BufferedReader bufferedReader=new BufferedReader (reader);
                 System.out.println(bufferedReader.readLine()); // selam arkadaşlar

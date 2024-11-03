@@ -14,6 +14,5 @@ public class B13_AccessModifier {
 }
 class Restricted{
     private Restricted(){
-
     }
 }

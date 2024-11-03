@@ -25,5 +25,4 @@ public class TimerExample {
         System.out.println("|   TIME IS UP   |");
         System.out.println("|----------------|");
     }
-
 }

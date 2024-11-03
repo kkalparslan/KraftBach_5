@@ -27,7 +27,6 @@ public class B16_Polymorphism {
         // downcasting--larger to smaller type
         Super sub1 = new Sub();
         sub1.message1();
-
     }
 }
 

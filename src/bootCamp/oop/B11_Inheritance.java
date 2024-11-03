@@ -13,7 +13,6 @@ public class B11_Inheritance {
         Child ahmet=new Child();
         Child ayşe=new Child("ayşe",5);
     }
-
 }
 //------parent class
 class Parent{
