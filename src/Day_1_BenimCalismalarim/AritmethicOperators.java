@@ -38,11 +38,5 @@ public class AritmethicOperators {
         System.out.println("saniye = " + saniye);
 
         System.out.println("--------------------------------------");
-
-
-
-
-
     }
-
 }

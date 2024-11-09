@@ -6,6 +6,5 @@ public class ControlFlowStatements {
 //    toplamı c den fazla ise a ve b nin farkını c ye atasın
 
     public static void main(String[] args) {
-
     }
 }
