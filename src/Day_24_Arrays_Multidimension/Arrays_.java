@@ -39,8 +39,6 @@ public class Arrays_ {
         //String str="merhaba java insanları bugün nasılsınız";
         //System.out.println(Arrays.toString(splitArray(str)));
         //System.out.println(Arrays.toString(Arrays.copyOfRange(iArr, 2, 5)));
-
-
     }
 
     public static boolean checkLength(int[] iArr) {

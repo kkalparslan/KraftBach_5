@@ -27,5 +27,16 @@ public class WithEbec {
         f=f+e;
         System.out.println("e = " + e);
         System.out.println("f = " + f);
+
+
+        int r=45;
+        int m=50;
+
+        r=r+m;
+        m=r-m;
+        r=r-m;
+
+        System.out.println("r = " +r);
+        System.out.println("m = "+m);
     }
 }
