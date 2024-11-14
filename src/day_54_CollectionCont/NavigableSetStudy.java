@@ -6,7 +6,7 @@ public class NavigableSetStudy {
     public static void main(String[] args) {
         //SortedSet<Integer> intSortedSet=new TreeSet<>();
         //  Set<Integer>intSortedSet=new TreeSet<>();
-        NavigableSet<Integer> intSortedSet=new TreeSet<>();
+        NavigableSet<Integer> intSortedSet = new TreeSet<>();
 
         intSortedSet.add(2);
         intSortedSet.add(40);
@@ -17,7 +17,7 @@ public class NavigableSetStudy {
         intSortedSet.add(30);
         intSortedSet.add(35);
         System.out.println("intSortedSet = " + intSortedSet); // [2, 10, 20, 30, 35, 40, 50]
-                                                             // sıralanmış olarak geliyor treesetlerde
+        // sıralanmış olarak geliyor treesetlerde
 
         // lower()
         System.out.println("lower(35) = " + intSortedSet.lower(35)); // 30 bir düşüğünü veriyor
@@ -27,10 +27,10 @@ public class NavigableSetStudy {
 
         // floor()
         System.out.println("floor(35) = " + intSortedSet.floor(35)); // 35 girilen değerin bir altındaki paremetreyi
-                                                       //  veriyor. tam değer veriliyorsa o değeri taban olarak veriyor
+        //  veriyor. tam değer veriliyorsa o değeri taban olarak veriyor
         // ceiling()
         System.out.println("ceiling(35) = " + intSortedSet.ceiling(35)); // 40 girilen değerin bir üstündeki paremetreyi
-                                                                     //  veriyor. tam değer girilirse floor gibi kandisini veriyor.
+        //  veriyor. tam değer girilirse floor gibi kandisini veriyor.
         // poolFirst()
         //intSortedSet.clear();
         System.out.println("intSortedSet = " + intSortedSet); // [2, 10, 20, 30, 35, 40, 50]
@@ -38,13 +38,13 @@ public class NavigableSetStudy {
         System.out.println("intSortedSet = " + intSortedSet);
         System.out.println("pollFirst() = " + intSortedSet.pollFirst()); // 2
         System.out.println("intSortedSet = " + intSortedSet); // [10, 20, 30, 35, 40, 50] pollfirst ün first ten
-                                                              // farkı parametreyi döndürürken hem de atıyor
+        // farkı parametreyi döndürürken hem de atıyor
         // pollLast()
         System.out.println("pollLast() = " + intSortedSet.pollLast()); // 50
         System.out.println("intSortedSet = " + intSortedSet); // [10, 20, 30, 35, 40] hem verdi hemde sildi..
 
         // descendingSet()
-        intSortedSet.addAll(Arrays.asList(30,60,70,80));
+        intSortedSet.addAll(Arrays.asList(30, 60, 70, 80));
         System.out.println("intSortedSet = " + intSortedSet); // [10, 20, 30, 35, 40, 60, 70, 80]
         System.out.println("descendingSet() = " + intSortedSet.descendingSet()); // [80, 70, 60, 40, 35, 30, 20, 10]
 
@@ -62,16 +62,14 @@ public class NavigableSetStudy {
 
         System.out.println("intSortedSet = " + intSortedSet); // [10, 20, 30, 35, 40, 60, 70, 80]
 
-        Iterator<Integer>iterator=intSortedSet.iterator();
-        while (iterator.hasNext()){
-             Integer next=iterator.next();
-             if (next>39){
-                 iterator.remove();
-             }
-            }System.out.println(intSortedSet); // [10, 20, 30, 35]
-
+        Iterator<Integer> iterator = intSortedSet.iterator();
+        while (iterator.hasNext()) {
+            Integer next = iterator.next();
+            if (next > 39) {
+                iterator.remove();
+            }
         }
-
-
+        System.out.println(intSortedSet); // [10, 20, 30, 35]
     }
+}
 

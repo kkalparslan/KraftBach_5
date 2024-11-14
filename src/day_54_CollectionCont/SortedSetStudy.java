@@ -52,7 +52,5 @@ public class SortedSetStudy {
         System.out.println("myHeadSet.remove(25) = " + myHeadSet.remove(25));
         System.out.println("myHeadSet.remove(2) = " + myHeadSet.remove(2));
         System.out.println("intSortedSet = " + intSortedSet); // [10, 25, 45]
-
-
     }
 }

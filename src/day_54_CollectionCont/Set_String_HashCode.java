@@ -28,6 +28,5 @@ public class Set_String_HashCode {
         studentSet.add(s3);
      //   System.out.println("studentSet = " + studentSet);
         System.out.println("studentSet.size() = " + studentSet.size());
-
     }
 }

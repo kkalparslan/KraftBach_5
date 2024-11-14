@@ -33,7 +33,5 @@ public class SetInterfaceStudy {
             longSet.remove(70l);
         }
         System.out.println(longSet); // [null, 2, 3, 4, 7] 70 gitti..yukrıdaki remove dan dolayı
-
-
     }
 }
