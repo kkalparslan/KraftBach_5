@@ -28,7 +28,5 @@ public class ArrayList_Example {
         System.out.println(arrayList);
         arrayList.add(2,"suzan");
         System.out.println(arrayList);
-
-
     }
 }
