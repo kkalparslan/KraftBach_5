@@ -18,8 +18,5 @@ public class LinkedList_Example {
         System.out.println(linkedList.pop());
         System.out.println(linkedList.size());
         System.out.println(linkedList.get(2));
-
-
-
     }
 }
