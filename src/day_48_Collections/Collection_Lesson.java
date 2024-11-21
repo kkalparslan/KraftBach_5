@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Collection_Lesson {
     public static void main(String[] args) {
         veriAlVeEkranaYazdir();
-
     }
+
     public static void veriAlVeEkranaYazdir(){
         Scanner scan=new Scanner(System.in);
         System.out.println("kaç adet sayı girmek istiyorsunuz: ");
@@ -19,6 +19,5 @@ public class Collection_Lesson {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i]+" ");
         }
-
     }
 }

@@ -20,8 +20,5 @@ public class Vector_Example {
 
         System.out.println("vector.capacity() = " + vector.capacity());
         System.out.println("vector.size() = " + vector.size());
-
-
-
     }
 }

@@ -23,7 +23,5 @@ public class Stack_Example {
                                                         // ama pop metodu gibi değeri göndermiyor
         System.out.println("size() = " + stack.size()); // size() = 3
         System.out.println("stack = " + stack);
-
-
     }
 }
