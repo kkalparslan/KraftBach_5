@@ -63,7 +63,5 @@ public class CollectionStudy {
                                                           // büyükse fazla değerleri null olarak veriyor..
         Integer [] toArray=col.toArray(new Integer[11]);  // [25, 20, 50, 5, 80, 60, 70, 90, null, null, null]
         System.out.println("array: "+Arrays.toString(toArray));
-
-
     }
 }
