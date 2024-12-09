@@ -3,6 +3,10 @@ package Day_19_StringMethods;
 public class StringMethods {
     public static void main(String[] args) {
 
+        String str = "durahmanabdurahmanabdurahmanabdurahmanabdurahmanabdurahmanabdurahmanabdurahmanabdurahmanabddurahmana";
+        int harfSayisi=str.length();
+        System.out.println("harf sayısı: "+harfSayisi);
+
         // String str = "Perşembe";
         //System.out.println(str.length());
         //String str2 = "";
@@ -57,4 +61,5 @@ public class StringMethods {
 //        String replace1 = replace.replace(" ", "");
 //        return replace1.replace(":", "");
     }
+
 }
