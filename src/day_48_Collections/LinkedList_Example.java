@@ -7,8 +7,8 @@ import java.util.Vector;
 
 public class LinkedList_Example {
     public static void main(String[] args) {
-        ArrayList<String>arrayList=new ArrayList<>();
-        LinkedList<String>linkedList=new LinkedList<>();
+        ArrayList<String> arrayList = new ArrayList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.add("ahmet");
         linkedList.add("mehmet");
         linkedList.add("ayşe");
