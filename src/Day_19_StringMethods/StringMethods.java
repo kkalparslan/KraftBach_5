@@ -3,7 +3,7 @@ package Day_19_StringMethods;
 public class StringMethods {
     public static void main(String[] args) {
 
-        String str = "durahmanabdurahmanabdurahmanabdurahmanabdurahmanabdurahmanabdurahmanabdurahmanabdurahmanabddurahmana";
+        String str = "gdfddfdfbinselamaahmetbinselamaahmetbinselamaahmetbinselamaahmetbinselamaahmetbinselamaahmetbinselam";
         int harfSayisi=str.length();
         System.out.println("harf sayısı: "+harfSayisi);
 
