@@ -15,8 +15,17 @@ public class LinkedList_Example {
         linkedList.add("alparslan");
 
         System.out.println(linkedList.size());
+        System.out.println("linkedList = " + linkedList);
         System.out.println(linkedList.pop());
         System.out.println(linkedList.size());
         System.out.println(linkedList.get(2));
+        System.out.println("linkedList = " + linkedList);
+        System.out.println("linkedList.peek() = " + linkedList.peek());
+        linkedList.push("test");
+        System.out.println("linkedList = " + linkedList);
+        System.out.println("linkedList.peek() = " + linkedList.peek());
+        System.out.println("linkedList.pop() = " + linkedList.pop());
+        System.out.println("linkedList = " + linkedList);
+        //System.out.println("arrayList = " + arrayList);
     }
 }

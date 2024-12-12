@@ -20,8 +20,16 @@ public class Stack_Example {
         System.out.println("size() = " + stack.size()); // size() = 3
         System.out.println("stack = " + stack); // [true, 5, merhaba]
         System.out.println("peek() = " + stack.peek()); // peek() = merhaba son indexteki değeri döndürüyor
-        // ama pop metodu gibi değeri göndermiyor
+        // ama pop metodu gibi değeri stack ten çıkarmıyor.
         System.out.println("size() = " + stack.size()); // size() = 3
+        System.out.println("stack = " + stack);
+        System.out.println("--------------------------------------");
+        stack.add(2, "apocan");
+        System.out.println("stack.size() = " + stack.size());
+        System.out.println("stack = " + stack);
+        System.out.println("stack.firstElement() = " + stack.firstElement());
+        System.out.println("stack.push(\"test\") = " + stack.push("test"));
+        System.out.println("stack.size() = " + stack.size());
         System.out.println("stack = " + stack);
     }
 }
