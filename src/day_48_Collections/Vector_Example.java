@@ -23,5 +23,8 @@ public class Vector_Example {
         System.out.println("vector.contains(\"apo\") = " + vector.contains("apo"));
         System.out.println("vector.elementAt(11) = " + vector.elementAt(11));
         System.out.println("vector.firstElement() = " + vector.firstElement());
+        System.out.println("vector.get(\"mehmet\") = " + vector.get(7));
+        vector.insertElementAt("azra", 9);
+        System.out.println("vector.get(9) = " + vector.get(9));
     }
 }
