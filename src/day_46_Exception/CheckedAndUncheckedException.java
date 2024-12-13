@@ -8,9 +8,6 @@ public class CheckedAndUncheckedException {
 //            e.printStackTrace();
 //        }
 
-            Thread.sleep(3000);
-
-
-
+        Thread.sleep(3000);
     }
 }

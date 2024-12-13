@@ -11,20 +11,18 @@ public class ThrowClause {
 //            System.out.println("program sonlandı");
 //        }
 
-        int x=0;
+        int x = 0;
         try {
-            if(x==0){
+            if (x == 0) {
                 throw new ArithmeticException("aritmetik exception hatası");
                 // throw new FileNotFoundException("aritmetik exception hatası"); java.lang paketinde olmayan
                 // bir exception ilgili paketten yukarıdaki gibi import edilir..
             }
-        }catch (ArithmeticException e) {//FileNotFoundException e){
+        } catch (ArithmeticException e) {//FileNotFoundException e){
 
             System.out.println(e.getMessage());
         }
         // KULLNICIDAN BİR SAYI ALIN VE BU SAYININ FAKTORİYELİNİ ALARAK EKRANA SONUCU YAZDIRIN
-
-
     }
 }
 
