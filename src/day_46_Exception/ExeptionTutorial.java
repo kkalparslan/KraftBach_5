@@ -3,7 +3,7 @@ package day_46_Exception;
 public class ExeptionTutorial {
     public static void main(String[] args) {
         System.out.println("program başladı");
-        int arr []=new int[3];
+        int arr[] = new int[3];
         System.out.println(arr[3]);
         System.out.println("program bitti");
 
@@ -22,7 +22,7 @@ public class ExeptionTutorial {
 //            }
 //        }
 
-       // System.out.println("program bitti");
+        // System.out.println("program bitti");
 //
 //        System.out.println("bir sayı giriniz");
 //        Scanner scan =new Scanner(System.in);

@@ -29,21 +29,14 @@ public class MultipleCatchBlocks {
 //        System.out.println("program sonlandı");
 
 
-        try{
-            System.out.println(5/0);
-        }catch (ArithmeticException | IndexOutOfBoundsException e){ // aynı catch bloğunda birden fazla
+        try {
+            System.out.println(5 / 0);
+        } catch (ArithmeticException | IndexOutOfBoundsException e) { // aynı catch bloğunda birden fazla
 //            exception tanımlanabilir. Ancak bu exceptionlarda is a ilişkisi olmamalıdır. Aksi takdirde
 //                    compile hata verir.
             System.out.println("Exception yakalandı");
-
-        }finally {
+        } finally {
             System.out.println("finally bloğu çalıştı");
-
         }
-
-
-
-
-
-          }
+    }
 }

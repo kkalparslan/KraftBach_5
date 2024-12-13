@@ -16,27 +16,23 @@ public class TryCatch {
 //        System.out.println("program sonlandı");
 
 
-
         System.out.println("program başladı");
-        boolean devam=true;
-        while (devam){
-            try{
-                Scanner scan =new Scanner(System.in);
+        boolean devam = true;
+        while (devam) {
+            try {
+                Scanner scan = new Scanner(System.in);
                 System.out.println("sayı: ");
-                int x=scan.nextInt();
+                int x = scan.nextInt();
                 System.out.println("bölüm");
-                int y=scan.nextInt();
-                System.out.println("sonuç: "+x/y);
-                devam=false;
-            }catch (Exception e){
+                int y = scan.nextInt();
+                System.out.println("sonuç: " + x / y);
+                devam = false;
+            } catch (Exception e) {
                 e.printStackTrace();
                 System.out.println("lütfen tekrar debeyiniz");
             }
         }
-                System.out.println("program sonlandı");
-
+        System.out.println("program sonlandı");
     }
-
-
-   }
+}
 
