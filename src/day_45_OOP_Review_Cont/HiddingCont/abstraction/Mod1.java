@@ -1,22 +1,25 @@
 package day_45_OOP_Review_Cont.HiddingCont.abstraction;
-public class Mod1 extends D3Print{
+
+public class Mod1 extends D3Print {
     public Mod1(String model, String fileFormat) {
         super(model, fileFormat);
         extrude();
         System.out.println(fileFormatCheck());
-        if (fileFormat.equals("OBJ")){
+        if (fileFormat.equals("OBJ")) {
             polish();
-        }else {
+        } else {
             fileFormatCheck();
         }
         System.out.println(counter());
     }
+
     @Override
     public void extrude() {
-        System.out.println("printing a "+model+ " with "+fileFormat+" file format");
+        System.out.println("printing a " + model + " with " + fileFormat + " file format");
     }
+
     @Override
     public void polish() {
-        System.out.println(model+" is polishing");
+        System.out.println(model + " is polishing");
     }
 }
