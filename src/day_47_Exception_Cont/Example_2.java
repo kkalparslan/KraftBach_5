@@ -36,7 +36,7 @@ public class Example_2 {
                 int x = scan.nextInt();
                 System.out.print("bölen: ");
                 int y = scan.nextInt();
-                System.out.println("sonuc: "+(x / y));
+                System.out.println("sonuc: " + (x / y));
             } catch (ArithmeticException e) {
                 System.out.println("aritmetik bir hata bulundu tekrar deneyiniz");
                 System.out.println(e.getMessage());
@@ -45,12 +45,10 @@ public class Example_2 {
                 System.out.println("Exception bulundu tekrar deneyiniz");
                 System.out.println(e.getMessage());
                 continue;
-                }
-            finally {
+            } finally {
                 System.out.println("finally blok uyarıyor");
-
-            }devam=false;
+            }
+            devam = false;
         }
-
     }
 }

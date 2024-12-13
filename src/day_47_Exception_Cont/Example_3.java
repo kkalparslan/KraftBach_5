@@ -8,31 +8,28 @@ public class Example_3 {
         // metodunun içerisinde yapın. true veya false return edebilir yada 0
         // veya 1 döndürebilirsinizsiniz
 
-        int arr []={5, 3, 5, 8, 10};
-      //  System.out.println(checkArrayId(arr)); // aşağıdaki try bloğu olmadan da sadece
+        int arr[] = {5, 3, 5, 8, 10};
+        //  System.out.println(checkArrayId(arr)); // aşağıdaki try bloğu olmadan da sadece
         //  metodu çağırarak işlem yapabiliriz. ancak try catch bloğu il handle etmiş oluyoruz.
 
         try {
             System.out.println(checkArrayId(arr));
-        }catch (IllegalArgumentException e){
+        } catch (IllegalArgumentException e) {
             e.printStackTrace();
             System.out.println("uygun olmayan personel ıd tespit edildi");
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             System.out.println("bilinmeyen hata taspit edildi");
         }
         System.out.println("programa devam ediliyor");
-
     }
-    public static boolean checkArrayId(int[]arr) {
+
+    public static boolean checkArrayId(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 0) {
                 throw new IllegalArgumentException("personel ID 0 olamaz");
             }
-        }return true;
+        }
+        return true;
     }
-
-
-
-
 }

@@ -21,8 +21,6 @@ public class Example_1 {
             }
             System.out.println("programdan çıkış yapılıyor");
             devam = false;
-
         }
-
     }
 }
