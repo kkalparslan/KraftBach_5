@@ -36,7 +36,5 @@ public class ArrayList_2 {
 
         nums.clear();
         System.out.println("nums = " + nums);  //[]
-
-
     }
 }

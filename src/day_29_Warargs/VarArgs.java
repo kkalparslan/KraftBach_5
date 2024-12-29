@@ -9,7 +9,6 @@ public class VarArgs {
 //concat("ja", "va");
 //concat("ja", "va", " ", "insanları");
         System.out.println(concat1("JAVA", "PYTHON", "BHP"));
-
     }
     public static void sum(int... sayılar){        // variable arguments
 //        System.out.println(sayılar[0]);
@@ -34,6 +33,4 @@ public class VarArgs {
         }
         return empty;
     }
-
-
 }

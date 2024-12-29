@@ -26,8 +26,5 @@ public class ArraysList_ {
         boolean isEmpty= names.size() == 0;
         System.out.println(names.size() == 0);
         System.out.println(" is Empty= "+ isEmpty);
-
-
-
     }
 }

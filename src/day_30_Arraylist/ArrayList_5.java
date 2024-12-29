@@ -28,7 +28,5 @@ public class ArrayList_5 {
         System.out.println("allDays.get(1).equals(\"Tuesday\") = " + allDays.get(1).equals("Tuesday"));
         System.out.println("allDays.containsAll(weekDays) = " + allDays.containsAll(weekDays));
         System.out.println("weekDays.containsAll(allDays) = " + weekDays.containsAll(allDays));
-
-
     }
 }

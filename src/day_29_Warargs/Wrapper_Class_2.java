@@ -31,7 +31,5 @@ public class Wrapper_Class_2 {
         System.out.println("Character.isUpperCase('A') = " + Character.isUpperCase('A'));
         System.out.println("Character.isLowerCase('b') = " + Character.isLowerCase('b'));
         System.out.println("Character.isLowerCase('B') = " + Character.isLowerCase('B'));
-
-
     }
 }

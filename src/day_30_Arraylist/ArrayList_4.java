@@ -31,7 +31,5 @@ public class ArrayList_4 {
 
         tools.removeAll(position);
         System.out.println("tools = " + tools);
-
-
     }
 }
