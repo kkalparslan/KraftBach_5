@@ -47,7 +47,5 @@ public class ArrayList_3 {
         System.out.println("names = " + names);
         names.add("Hasan");
         System.out.println("names = " + names);
-
-
     }
 }

@@ -38,7 +38,6 @@ public class Wrapper_Class {
 
         double bdl1 =new Double(3.14); //unboxed
 
-
         // valuOf
 
         Integer integer =Integer.valueOf("10");
@@ -55,7 +54,6 @@ public class Wrapper_Class {
 
 //        Integer integer2 =Integer.valueOf("");
 //        Integer integer3 =Integer.valueOf("ten");
-
 
         // parse // String argumanı kabul ediyor ve bunu ilgili primitive  data tipine convert ediyor..
 
@@ -79,9 +77,5 @@ public class Wrapper_Class {
 //        System.out.println("y4 = " + y4);
 //        System.out.println("y5 = " + y5);
 //        System.out.println("y6 = " + y6);
-
-
-
-
     }
 }

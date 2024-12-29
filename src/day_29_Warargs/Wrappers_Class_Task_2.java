@@ -13,5 +13,4 @@ public class Wrappers_Class_Task_2 {
         }
        System.out.println("empty = " + empty);
     }
-
 }

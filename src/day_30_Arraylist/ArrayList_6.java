@@ -13,7 +13,6 @@ public class ArrayList_6 {
         fruitInBasket.add("üzüm");
       //  fruitInBasket.add("erik");
 
-
         ArrayList<String> fruitInPlate = new ArrayList<>();
         fruitInPlate.add("armut");
         fruitInPlate.add("kayısı");
@@ -48,10 +47,7 @@ public class ArrayList_6 {
         toIntList(stringNums);
         System.out.println("toIntList(stringNums) = " + toIntList(stringNums));
         System.out.println(toIntList(stringNums).get(0) + toIntList(stringNums).get(1));
-
         System.out.println(Arrays.toString(toIntArr(stringNums)));
-
-
     }
     public static void printListNumber(ArrayList<Integer>nums){
         for (Integer I:nums) {
@@ -90,5 +86,4 @@ public class ArrayList_6 {
             myArray[i]=Integer.parseInt(strList.get(i)); // noboxing
         }return myArray;
     }
-
 }
