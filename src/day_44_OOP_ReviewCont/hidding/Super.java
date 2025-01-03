@@ -6,5 +6,4 @@ public class Super {
     public void increment(){
         i++;
     }
-
 }

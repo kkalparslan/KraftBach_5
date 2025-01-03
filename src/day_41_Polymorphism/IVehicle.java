@@ -5,8 +5,8 @@ public interface IVehicle {
     void start();
     void stop();
     int durmaMesafesi();
+
     default int tekerSayisi(){
         return tekerSayisi;
     }
-
 }

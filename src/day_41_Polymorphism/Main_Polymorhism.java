@@ -55,19 +55,17 @@ public class Main_Polymorhism {
 
         // parent class child class gibi davranması gerekiyor
 
-        Animal animal =new Animal();
-        Dog dog=new Dog();
+        Animal animal = new Animal();
+        Dog dog = new Dog();
         dog.eat();   // compile ederken hata oluşmasada execyte ederken hata veriyor.
-                     // çünkü ilk nesneyi oluştururken parent class nesnesini child
-                     // class olmaya zorlamak gerekiyor. PARENT nesnesi CHILD gibi davranmalı.
+        // çünkü ilk nesneyi oluştururken parent class nesnesini child
+        // class olmaya zorlamak gerekiyor. PARENT nesnesi CHILD gibi davranmalı.
 
-        Animal animal1 =new Dog();
-        Dog dog1=(Dog) animal1;
+        Animal animal1 = new Dog();
+        Dog dog1 = (Dog) animal1;
         dog1.eat();
         animal1.eat();
         System.out.println(((Dog) animal1).disSayisi);
         ((Dog) animal1).speed();
-
-
     }
 }

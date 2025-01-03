@@ -6,8 +6,8 @@ public class Car2 extends Car1 {
     @Override
     public void method2() {
         super.method2();
-
     }
+
     @Override
     protected void method4() {
         super.method4();

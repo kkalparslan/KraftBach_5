@@ -10,8 +10,5 @@ public class CarTest2 {
        // car1.engine=1.6;
           car1.year=2019;
        // car1.door=4;
-
-
-
     }
 }
