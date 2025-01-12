@@ -26,8 +26,8 @@ public class Arrays_Example_2 {
         //System.out.println(Arrays.toString(enKucukSayiVeSifirAta(sayilar)));
         //ArraysExample_1.arrayYazdir(degerAtamaKontrol(sayilar,5,8,1));
         // deger atama sorusunu harun hocaya soralım parametreleri vermeden de çözülebilirmiydi??
-
     }
+
     public static int enBuyukIkınciSayi(int[] arr) {
         int a = arr[0];
         int b = arr[0];
@@ -39,6 +39,7 @@ public class Arrays_Example_2 {
         }
         return b;
     }
+
     public static boolean ardArdaUcSayi(int[] arr) {
         if (arr.length < 3) return false;
         for (int i = 0; i < arr.length - 2; i++) {
@@ -48,6 +49,7 @@ public class Arrays_Example_2 {
         }
         return false;
     }
+
     public static String[] yalnizSayilar(int[] arr) {
         String yalnizSayilar = "";
         if (arr.length == 1) {
@@ -58,30 +60,32 @@ public class Arrays_Example_2 {
         for (int i = 1; i < arr.length - 1; i++) {
             if (arr[i] != arr[i - 1] && arr[i] != arr[i + 1])
                 yalnizSayilar += arr[i] + " ";
-            }
+        }
         if (arr[arr.length - 1] != arr[arr.length - 2])
             yalnizSayilar += arr[arr.length - 1] + " ";
 
         return yalnizSayilar.split(" ");
-
     }
-    public static int enCokSayiBul(int [] arr){
-        int enCok= -1;
+
+    public static int enCokSayiBul(int[] arr) {
+        int enCok = -1;
         int count;
-        int adet=1;
-        for (int i=0; i<arr.length; i++){
-            count=0;
+        int adet = 1;
+        for (int i = 0; i < arr.length; i++) {
+            count = 0;
             for (int j = 0; j < arr.length; j++) {
-                if(arr[i]==arr[j]){
+                if (arr[i] == arr[j]) {
                     count++;
                 }
-            }if(count>adet){
-                enCok=arr[i];
-                adet=count;
             }
-        }return enCok;
-
+            if (count > adet) {
+                enCok = arr[i];
+                adet = count;
+            }
+        }
+        return enCok;
     }
+
     public static boolean dublicateControl(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
@@ -92,32 +96,39 @@ public class Arrays_Example_2 {
         }
         return false;
     }
-    public static int findCountLetter_1(String str, String harf){
-        str=str.toLowerCase();
-        String [] arr =str.split("");
-        int count=0;
-        for (String harf1:arr){
-            if(harf1.equals(harf)){
+
+    public static int findCountLetter_1(String str, String harf) {
+        str = str.toLowerCase();
+        String[] arr = str.split("");
+        int count = 0;
+        for (String harf1 : arr) {
+            if (harf1.equals(harf)) {
                 count++;
             }
-        }return count;
+        }
+        return count;
     }
+
     public static int findCountLetter_2(String str, String harf) {
-        return str.toLowerCase().split(harf).length-1;
+        return str.toLowerCase().split(harf).length - 1;
     }
+
     public static int findCountLetter_3(String str, String harf) {
-        return str.toLowerCase().length()-str.toLowerCase().replace("o","").length();
+        return str.toLowerCase().length() - str.toLowerCase().replace("o", "").length();
     }
-    public static boolean dublicateControlString(String str){
-        String [] strArray=str.toLowerCase().split(" ");
-        for(int i=0; i<strArray.length; i++){
+
+    public static boolean dublicateControlString(String str) {
+        String[] strArray = str.toLowerCase().split(" ");
+        for (int i = 0; i < strArray.length; i++) {
             for (int k = 0; k < strArray.length; k++) {
-                if(i!=k && strArray[i].equals(strArray[k])){
+                if (i != k && strArray[i].equals(strArray[k])) {
                     return true;
                 }
             }
-        }return false;
+        }
+        return false;
     }
+
     public static int[] enKucukSayiVeSifirAta(int[] arr) {
         int enKucukSayi = arr[0];
         for (int sayi : arr) {
@@ -132,16 +143,18 @@ public class Arrays_Example_2 {
         }
         return yeniArray;
     }
-    public static int [] degerAtamaKontrol (int [] arr, int ilkDeger, int kontrolDegeri, int atanacakSayi){
-        int [] yeniArray = new int [arr.length];
-        yeniArray[0]=arr[0];
-        for(int i=0; i<yeniArray.length-1; i++){
-            if(arr[i]==ilkDeger && arr[i+1]==kontrolDegeri){
-                yeniArray[i+1]=atanacakSayi;
-            }else{
-                yeniArray[i+1]=arr[i+1];
+
+    public static int[] degerAtamaKontrol(int[] arr, int ilkDeger, int kontrolDegeri, int atanacakSayi) {
+        int[] yeniArray = new int[arr.length];
+        yeniArray[0] = arr[0];
+        for (int i = 0; i < yeniArray.length - 1; i++) {
+            if (arr[i] == ilkDeger && arr[i + 1] == kontrolDegeri) {
+                yeniArray[i + 1] = atanacakSayi;
+            } else {
+                yeniArray[i + 1] = arr[i + 1];
             }
-        }return yeniArray;
+        }
+        return yeniArray;
     }
     //       [5 ,10, 6, 9 ,5]            5,8
     //       [5, 10, 5, 1, 20]
