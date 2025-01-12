@@ -22,13 +22,13 @@ public class Benim_Cözümler {
 
 
         System.out.println("birinci kelimeyi giriniz");   // 3 defa hatalı girilen sorunun cevabı
-        String result="";
+        String result = "";
         Scanner scan = new Scanner(System.in);
         String str1 = scan.nextLine();
-        for (int i=0; i<1; i++) {
+        for (int i = 0; i < 1; i++) {
             if (str1.length() > 4) {
                 System.out.println("hatalı,,,tekrar giriniz");
-            } else if(str1.length()>=1&&str1.length()<=3){
+            } else if (str1.length() >= 1 && str1.length() <= 3) {
                 result += str1 + "";
             }
             String str2 = scan.nextLine();
@@ -44,20 +44,19 @@ public class Benim_Cözümler {
             }
             System.out.println("3. defa hatalı giriş yaptınız program sonlandırıldı");//
         }
-            System.out.println("ikinci kelimeyi giriniz");
-            String str4 = scan.nextLine();
-            if (str4.length() > 4) {
+        System.out.println("ikinci kelimeyi giriniz");
+        String str4 = scan.nextLine();
+        if (str4.length() > 4) {
+            System.out.println("hatalı,,,tekrar giriniz");
+            String str5 = scan.nextLine();
+            if (str5.length() > 4) {
                 System.out.println("hatalı,,,tekrar giriniz");
-                String str5 = scan.nextLine();
-                if (str5.length() > 4) {
-                    System.out.println("hatalı,,,tekrar giriniz");
-                    String str6 = scan.nextLine();
-                }
+                String str6 = scan.nextLine();
             }
-            System.out.println(str1.concat(" ").concat(str4));
         }
+        System.out.println(str1.concat(" ").concat(str4));
+    }
 //String str="merhaba java insanları bugün nasılsınız";
-
 
     // 15.SORU  Kullanıcıdan bir kelime alın ve bu kelimenin içerindeki ünlü ve ünsüz harfleri
     // ayrı ayrı ekrana yazan programı yazınız.
@@ -97,8 +96,8 @@ public class Benim_Cözümler {
             }
         }
         return "ünlü harfler: " + unluHarf + " ünsüz harfler: " + unsuzHarf;
-
     }
+
     //    16. SORU Kullanıcıdan min 3 harf olacak şekilde bir kelime alın ve bu kelimenin ilk 3
 //    harfini kelimeden keserek sonuna ekleyin.
 //            Merhaba habaMer
@@ -112,6 +111,7 @@ public class Benim_Cözümler {
         }
         return sonuc;
     }
+
     //    17. SORU Kullanıcıdan min 3 harf olacak şekilde bir kelime alın ve bu kelimenin son 3
 //    harfini kelimeden keserek kelimenin başına ekleyin.
 //    Merhaba abaMerh   Ali Ali
@@ -124,6 +124,7 @@ public class Benim_Cözümler {
         }
         return sonuc;
     }
+
     //    18. SORU Kullanıcıdan bir kelime alın ve bu kelimenin ilk benzersiz harfini bulun. (Büyük
 //    küçük harf gözardı edilecek.) Hiçbir harf benzersiz değil ise benzersiz harf yoktur
 //    ikazı versin.
@@ -140,6 +141,7 @@ public class Benim_Cözümler {
         }
         return sonuc;
     }
+
     //   Soru 19:  Kullanıcıdan iki kelime alın ve bu kelimeler aynı harflerden oluşuyorsa(her harf
 //eşit sayıda içerecek,büyük küçük harf göz ardı edilecek) true oluşmuyorsa false
 //            yazdırın. (anagram kelime ise)
@@ -159,10 +161,10 @@ public class Benim_Cözümler {
                     }
                 }
             }
-
         }
         return false;
     }
+
     //    SORU 20: Kullanıcıdan bir kelime alın ve ardı ardına tekrar eden harfleri döndüren metodu
 //    yazın.
 //            aabccccseeeeeefff acef
@@ -180,6 +182,7 @@ public class Benim_Cözümler {
         }
         return sonuc;
     }
+
     //    SORU 21: Kullanıcıdan 1 ila 4 harf olacak şekilde 2 kelime alın, 1. veya 2. kelimeyi
 //    girdiğinde hatalı giriş yaparsa uyarı verin ve kullanıcıya düzeltme imkanı verin.
 //    Her kelime için 3 kere hatalı giriş yaparsa programı sonlandırın. Kullanıcı doğru
@@ -241,6 +244,7 @@ public class Benim_Cözümler {
         return result.equals(str);
 
     }
+
     //    SORU 25:  Kullanıcıdan bir input alın ve bu inputun içerisinde kaç adet sev bulunduğunu
 //    ekrana yazdırın.
 //    Seni seviyorum 1  Sevmek veya sevmemek 2    Sev seni seveni , sevmek güzeldir. 3
@@ -254,6 +258,7 @@ public class Benim_Cözümler {
         }
         return count;
     }
+
     //    SORU 26: Bursa ile Ankara kelimeli cümlenin içerinde aynı sayıda dönüyorsa true farklı
 //    sayılarda dönüyorsa false yazdıran metodu yazınız.
 //    Ankara ile Bursa arası 500 km. True
@@ -262,23 +267,25 @@ public class Benim_Cözümler {
     public static boolean bursaAnkaraKontrol(String cümle) {  //bir harf hatalı veriyor
         cümle = cümle.toLowerCase();
         String[] str;
-        str=cümle.split("ankara");
+        str = cümle.split("ankara");
         int count = str.length;
         str = cümle.split("bursa");
         int count2 = str.length;
         return count == count2;
     }
+
     //    SORU 27: Kullanıcıdan bir kelime alın ve sonu acak ile bitiyorsa true bitmiyorsa false
 //    döndüren metodu yazdırın.
 //    Kullanacak true  Zamlanacak true Farkındalık false   Farkında false
     public static boolean sonuAcakKontrol(String kelime, String hedef) {
         return kelime.substring(kelime.length() - 4).equals(hedef);
     }
+
     //    SORU 28: Kullanıcıdan bir kelime alın ve bu kelimenin içerindeki harf sayılarını başına
 //    yazarak ekrana döndürün.(büyük küçük harfler göz ardı edilecek)
 //    Merhaba 1m1e1r1h2a1b    Seni seviyorum 2s2e1n2i1v1y1o1r1u1m
     public static String harfKadarSayiKoy(String kelime) {
-        kelime=kelime.toLowerCase().replace(" ","");
+        kelime = kelime.toLowerCase().replace(" ", "");
         String sonuc = " ";
         for (int i = 0; i < kelime.length(); i++) {
             int count = 0;
@@ -297,28 +304,28 @@ public class Benim_Cözümler {
         }
         return sonuc;
     }
+
     //    SORU 29: Kullanıcıdan bir dize sözcük alın ve en çok harfi döndüren metodu yazınız.
 //    Merhaba a    aaaaaaabbcccc a      eeemmmsssssssssshhhhhhhhhsss s
     public static String enCokHarfDöndür(String kelime) {
         String sonuc = "";
         int count;
-        int adet=1;
-        kelime=kelime.toLowerCase();
+        int adet = 1;
+        kelime = kelime.toLowerCase();
         for (int i = 0; i < kelime.length(); i++) {
-            count=0;
+            count = 0;
             for (int k = 0; k < kelime.length(); k++) {
-                if(kelime.charAt(i)==kelime.charAt(k)){
+                if (kelime.charAt(i) == kelime.charAt(k)) {
                     count++;
                 }
-            }if(count>adet){
-                sonuc=kelime.charAt(i)+"";
-                adet=count;
+            }
+            if (count > adet) {
+                sonuc = kelime.charAt(i) + "";
+                adet = count;
             }
         }
         return sonuc;
     }
-
-
 }
 
 
