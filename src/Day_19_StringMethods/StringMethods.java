@@ -3,7 +3,7 @@ package Day_19_StringMethods;
 public class StringMethods {
     public static void main(String[] args) {
 
-        String str = "water_mark";
+        String str = "WATER_MARK WATER_MARK WATER";
         int harfSayisi=str.length();
         System.out.println("harf sayısı: "+harfSayisi);
 
