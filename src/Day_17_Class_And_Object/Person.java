@@ -10,13 +10,7 @@ public class Person {
     }
 
     public void oyunOyna() {
-        System.out.println("oyun oynuyor"); // unutma: classlar blue print tir. yani soyuttur..
+        System.out.println("oyun oynuyor");
+        // unutma: classlar blue print tir. yani soyuttur..
     }
-
-
-
-
-
-
-
 }

@@ -10,6 +10,7 @@ public class Car {
     public void calistir() {
         System.out.println("araç çalıştırıldı");
     }
+
     public void hizlan() {
         System.out.println("tamam ama araç zaten 5. viteste");
     }

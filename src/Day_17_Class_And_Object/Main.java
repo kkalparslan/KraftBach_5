@@ -4,8 +4,6 @@ import java.util.concurrent.Callable;
 
 public class Main {
     public static void main(String[] args) {
-
-
         /*Person ogrenci_1=new Person();
         ogrenci_1.isim="Alparslan";
         ogrenci_1.cinsiyet="Erkek";
@@ -20,7 +18,6 @@ public class Main {
         System.out.println(ogrenci_1.isim + " ile "+ogrenci_2.isim+" arkadaştır.");
         System.out.println(ogrenci_2.isim+" yaşı: "+ogrenci_2.yas+" dır.");
 
-
         // ögrenci nesnesi ve dog sınıfı örneğini yap
 
         Dog dog_1=new Dog();
@@ -32,7 +29,6 @@ public class Main {
         dog_1.yemekYe();
         dog_1.havla();
         dog_1.kos();
-
 
         Car tesla_1 = new Car();
         tesla_1.hiz = 360;
@@ -74,6 +70,6 @@ public class Main {
 //                System.out.print("*");
 //            }
 //            System.out.println();
-      //  }
+        //  }
     }
 }

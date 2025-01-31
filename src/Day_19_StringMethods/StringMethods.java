@@ -4,8 +4,8 @@ public class StringMethods {
     public static void main(String[] args) {
 
         String str = "WATER_MARK WATER_MARK WATER";
-        int harfSayisi=str.length();
-        System.out.println("harf sayısı: "+harfSayisi);
+        int harfSayisi = str.length();
+        System.out.println("harf sayısı: " + harfSayisi);
 
         // String str = "Perşembe";
         //System.out.println(str.length());
@@ -54,7 +54,7 @@ public class StringMethods {
 
         // System.out.println(dateStamp("22/08/2022 14:16:35"));
 
-  //  }
+        //  }
 
 //    public static String dateStamp(String str) {
 //        String replace = str.replace("/", "");
