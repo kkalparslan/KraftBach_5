@@ -3,12 +3,7 @@ package Day_19_StringMethods;
 public class StringMethods {
     public static void main(String[] args) {
 
-        String str = "test referrer notes section with a long text. test referrer notes section with a " +
-                "long text. test referrer notes section with a long text. test referrer notes section " +
-                "with a long text. test referrer notes section with a long text. test referrer notes " +
-                "section with a long text. test referrer notes section with a long text. test referrer " +
-                "notes section with a long text. test referrer notes section with a long text. test referrer " +
-                "notes section with a long text. test referrer notes section with a long ";
+        String str = "robinLopez@devoechs.com";
         int harfSayisi = str.length();
         System.out.println("harf sayısı: " + harfSayisi);
 

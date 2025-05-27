@@ -1,6 +1,6 @@
 package day_41_Polymorphism;
 
-public class Car implements IVehicle{
+public class Car implements IVehicle {
     @Override
     public void start() {
         System.out.println("car start");
@@ -9,7 +9,6 @@ public class Car implements IVehicle{
     @Override
     public void stop() {
         System.out.println("car stop");
-
     }
 
     @Override
