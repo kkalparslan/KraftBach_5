@@ -12,12 +12,13 @@ public class Car2 extends Car1 {
     protected void method4() {
         super.method4();
     }
-    public Car2(){
+
+    public Car2() {
         super();
-       // model="mazda";
-        engine=1.6;
-        year=2019;
-       // door=4;
+        // model="mazda";
+        engine = 1.6;
+        year = 2019;
+        // door=4;
     }
 //    private class inner{
 //
