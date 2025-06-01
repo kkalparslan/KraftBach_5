@@ -15,7 +15,7 @@ Final keyword is not access modifier.
     prevent inheritance.
 
     for immutable concept; we use final class.
-     for example string class..(güvenlik gerekçesi ile immutable yapıyor)
+    for example string class..(güvenlik gerekçesi ile immutable yapıyor)
 
     ** FİNAL KEYWORD WITH ARRAY AND ARRAYLİST **
     Variables referans cant be changed.
